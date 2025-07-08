@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# 다음 소유확인
+#DaumWebMasterTool:b8cd3865e953ce5939b5f82fd3abd9b50b9efe5adbce1a4b2735460ef0ecdb04:YYdgBcO3QbBcNSY8COV/ww==
