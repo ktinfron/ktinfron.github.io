@@ -38,31 +38,44 @@
             text-align: center;
         }
         header img {
-            height: 300px;
+            width: 100%;
+            max-width: 500px;
+            height: auto;
         }
         section {
-            padding: 40px 20px;
+            padding: 5vw;
             max-width: 1000px;
             margin: auto;
         }
         h2 {
             color: #222;
+            font-size: 1.8em;
+            margin-bottom: 1em;
+        }
+        ul {
+            padding-left: 1.2em;
+        }
+        li {
+            margin-bottom: 0.8em;
+            font-size: 1em;
         }
         form input, form textarea {
             width: 100%;
-            padding: 12px;
+            padding: 1em;
             margin: 10px 0;
             border: 1px solid #ccc;
             border-radius: 6px;
             font-size: 1em;
         }
         form button {
-            padding: 12px 30px;
+            width: 100%;
+            padding: 1em;
             background: #d4000f;
             color: white;
             font-weight: bold;
             border: none;
             border-radius: 6px;
+            font-size: 1.1em;
             cursor: pointer;
         }
         footer {
@@ -72,8 +85,32 @@
             font-size: 0.9em;
             color: #333;
         }
-        .footer-toggle { cursor: pointer; color: #333; font-weight: bold; margin-top: 10px; display: inline-block; }
-        .footer-detail { display: none; margin-top: 10px; font-size: 0.85em; }
+        .footer-toggle {
+            cursor: pointer;
+            color: #333;
+            font-weight: bold;
+            margin-top: 10px;
+            display: inline-block;
+        }
+        .footer-detail {
+            display: none;
+            margin-top: 10px;
+            font-size: 0.85em;
+        }
+        @media (max-width: 600px) {
+            section {
+                padding: 6vw 4vw;
+            }
+            h2 {
+                font-size: 1.5em;
+            }
+            form button {
+                font-size: 1em;
+            }
+            header img {
+                max-width: 100%;
+            }
+        }
     </style>
 </head>
 <body>
